@@ -1,0 +1,7 @@
+version: 1
+environment: dev
+plugins:
+  - name: http
+    location: plugins/http/plugin.so
+  - name: go
+    location: plugins/go/plugin.so
